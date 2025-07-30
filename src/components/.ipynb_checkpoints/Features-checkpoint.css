@@ -1,0 +1,57 @@
+.features-section {
+  padding: 60px 40px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.features-section h2 {
+  color: #002b5b;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature-card {
+  width: 250px;
+  text-align: center;
+}
+
+.feature-card img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+  background-color: #2dcbd2;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444a57;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #5c6270;
+  line-height: 1.5;
+}
+
+/* For smart icon only */
+.feature-card img.home-image {
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 5px; /* reduced padding to show more image */
+  border: 5px solid #2dcbd2; /* same blue, cleaner edge */
+  background-color: transparent; /* remove fill */
+}

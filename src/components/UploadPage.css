@@ -1,0 +1,80 @@
+/* src/components/UploadPage.css */
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f0f4f8; /* Clean blue background */
+  scroll-margin-top: 100px; /* Scroll offset fix */
+}
+
+.upload-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.upload-box h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Updated to center the file input and filename */
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group input[type="file"] {
+  margin: 10px auto;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: block;
+  padding-right: 1px; /* adds space between button and label */
+}
+
+.filename {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 100%;
+  word-break: break-word;
+}
+
+
+
+.upload-btn {
+  background-color: #1565c0;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #0d47a1;
+}
+
+.upload-btn:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}

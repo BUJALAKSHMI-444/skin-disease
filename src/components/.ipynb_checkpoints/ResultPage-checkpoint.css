@@ -1,0 +1,44 @@
+/* src/components/ResultPage.css */
+.result-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  padding: 20px;
+}
+
+.result-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.result-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.disease-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d84315;
+  margin-bottom: 30px;
+}
+
+.result-card button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.result-card button:hover {
+  background-color: #005fa3;
+}

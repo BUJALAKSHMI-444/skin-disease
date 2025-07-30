@@ -1,0 +1,71 @@
+.howitworks {
+  padding: 60px 30px;
+  background-color: #e9f5ff;
+  text-align: center;
+}
+
+.howitworks h2 {
+  font-size: 2.2rem;
+  color: #002b5b;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.step-card {
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.step-card h3 {
+  margin: 10px 0 5px;
+  color: #007acc;
+  font-size: 1.1rem;
+}
+
+.step-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.try-now-btn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.try-now-btn:hover {
+  background-color: #005fa3;
+}
